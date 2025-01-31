@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature Platters</title>
+    <!-- Google Font CND -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font-awesome CND -->
+    <script
+      src="https://kit.fontawesome.com/986078ce7b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .font {
+        font-family: "Sora", serif;
+      }
+    </style>
+  </head>
+  <body class="font overflow-x-hidden">
+    <!-- Header Section -->
+    <header class="bg-[#EFEBE3]">
+      <nav>
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Product</a></li>
+                <li><a>Services</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-xl"
+              ><img src="./images/logo-header.png" alt=""
+            /></a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Product</a></li>
+              <li><a>Services</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar-end gap-4">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-cart-shopping"></i>
+            <a class="btn btn-outline btn-[#179800] border-[#179800]">Login</a>
+            <a class="btn bg-[#179800] text-white px-8 py-2">Register</a>
+          </div>
+        </div>
+      </nav>
+      <div class="justify-items-center text-center mt-20 bg-gradient-b From-[#FFFFFFFF] to-[#EFEBE3FF]">
+        <h1 class="text-3xl font-bold">Freshness <span class="text-[#179800]">You Can</span> <br><span  class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
+        <br>
+        <p class="text-gray-500">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          <br>pantry staples, we’ve got you covered every day!
+        </p>
+        <img class="mt-2 w-70" src="./images/hero-vegetables.png" alt="">
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+      <!-- Services -->
+     <section>
+        <div class="p-20">
+            <h2 class="text-3xl font-medium font-bold text-[#179800] mb-5 ">Services</h2>
+            <div class="grid lg:grid-cols-3 gap-4 ">
+                <!-- 1st Card -->
+                <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img
+                        src="./images/service.png"
+                        alt=""
+                        class=" bg-base-100 p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">24/7 Services </h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                  </div>
+    
+                  <!-- 2nd Card -->
+                  <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img
+                        src="./images/delivery.png"
+                        alt=""
+                        class=" bg-base-100 p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Fast Delivery</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                  </div>
+    
+                  <!-- 3rd Card -->
+                  <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img
+                        src="./images/healthy.png"
+                        alt=""
+                        class=" bg-base-100 p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Healthy Products </h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                    </div>
+                  </div>
+            </div>
+           </div>
+     </section>
+
+      <!--Popular Products  -->
+      <section>
+        <div>
+            <h2 class="text-2xl font-medium font-bold text-[#179800] mb-5">
+                Popular Products
+            </h2>
+            <div>
+                <!-- image Section -->
+                <div class="card bg-green-300 w-96 shadow-xl rounded-none">
+                    <div class="card-body">
+                      <h2 class="card-title text-white text-3xl">30% Off</h2>
+                      <p>Discover a world treats, toys, and <br> essentials handpicked for</p>
+                    </div>
+                    <div>
+                        <button class="btn ml-8 px-10 py-2">Bye Now</button>
+                    </div>
+                    <figure>
+                      <img
+                        src="./images/vegetable-offer.png"
+                        alt="Shoes"/>
+                    </figure>
+                  </div>
+
+                <!-- Grid Card Section -->
+                 </div>
+                 <div></div>
+            </div>
+        </div>
+      </section> 
+      
+      
+      <!-- Arrival & Offers -->
+       <section class=" mx-auto p-5">
+        <div>
+            <h2 class="text-2xl font-medium font-bold text-[#179800] mb-5 ">
+                Arrival & Offers 
+            </h2>
+            <div class="lg:flex gap-4">
+                <!-- 1st card -->
+            <div class="flex items-center bg-[#115414] gap-20 px-10 py-5 rounded-3xl">
+                <!-- text section -->
+                <div class="text-center">
+                    <div>
+                        <img src="./images/dawat-logo.png" alt="">
+                       </div>
+                       <br>
+                       <div>
+                           <button class="btn bg-[#63B76D] text-white">Cook Exotic Dishes</button>
+                        <h3 class="text-2xl mt-5 text-white">UP to <span class="font-bold">20% OFF</span></h3>
+                       </div>
+                </div>
+                <!-- img -->
+                 <div>
+                    <img class="w-[400px]" src="./images/dawat-mock-up.png" alt="">
+                 </div>
+            </div>
+
+            <!-- 2nd card -->
+            <div class="flex bg-[#102861] px-10 py-8 rounded-3xl">
+                <!-- text section -->
+                <div class="text-center">
+                    <div>
+                        <img src="./images/india-gate-logo.png" alt="">
+                       </div>
+                       <div>
+                           <button class="btn bg-[#2A4D97] text-white px-10">World’s No.1 Rice</button>
+                        <h3 class="text-2xl mt-5 text-white">UP to <span class="font-bold">40% OFF</span></h3>
+                       </div>
+                </div>
+                <!-- img -->
+                 <div>
+                    <img src="./images/india-gate-mock-up.png" alt="">
+                 </div>
+            </div>
+            </div>
+        </div>
+       </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="text-white bg-[#179800] py-10 px-4 md:px-16">
+        <div class=" flex justify-between w-9/12 mx-auto ">
+            <!-- text -->
+            <div>
+                <img src="./images/logo-footer.png" alt="">
+                <p>Discover a world treats, toys, and <br>essentials handpicked for your furry <br> friends</p>
+            </div>
+
+            <!-- ankor -->
+             <div>
+                <ul class="space-y-4">
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+             </div>
+
+             <!-- logo -->
+              <div>
+                <h4>Follow Us</h4>
+                <ul class="flex gap-4">
+                    <li><i class="fa-brands fa-facebook"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+              </div>
+        </div>
+    </footer>
+  </body>
+</html>
