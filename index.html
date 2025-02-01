@@ -65,8 +65,12 @@
               </ul>
             </div>
             <a class="btn btn-ghost text-xl"
-              ><img src="./images/logo-header.png" alt=""
-            /></a>
+              ><img
+               src="./images/logo-header.png" alt=""
+               class="hidden lg:flex"
+            />
+            <img src="./images/healthy.png" alt="">
+          </a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -76,11 +80,11 @@
             </ul>
           </div>
 
-          <div class="navbar-end gap-4">
+          <div class="navbar-end gap-4 hidden lg:flex">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-regular fa-cart-shopping"></i>
             <a class="btn btn-outline btn-[#179800] border-[#179800]">Login</a>
-            <a class="btn bg-[#179800] text-white px-8 py-2">Register</a>
+            <a class="btn bg-[#179800] text-white px-8 py-2 ">Register</a>
           </div>
         </div>
       </nav>
@@ -148,30 +152,32 @@
      </section>
 
       <!--Popular Products  -->
-      <section class="flex m-20 bg-[#EFEBE3] gap-5 ">
-        <div >
+      <section class="flex justify-center lg:flex lg:px-20 lg:py-28 bg-[#EFEBE3] gap-5 ">
+        <div>
             <h2 class="text-2xl font-medium font-bold text-[#179800] mb-5 justify-start">
                 Popular Products
             </h2>
-            
-                <!-- image Section -->
-                <div class="card bg-gradient-to-br from-green-500 to-[#EFEBE3] w-96 shadow-xl rounded-none">
-                    <div class="card-body">
-                      <h2 class="card-title text-white text-3xl">30% Off</h2>
-                      <p>Discover a world treats, toys, and <br> essentials handpicked for</p>
-                    </div>
-                    <div>
-                        <button class="btn ml-8 px-10 py-2">Bye Now</button>
-                    </div>
-                    <figure>
-                      <img class="ml-20"
-                        src="./images/vegetable-offer.png"
-                        alt="Shoes"/>
-                    </figure>
-                  </div>
-                 </div>
-
-                 <div class="grid grid-cols-3 gap-5">
+            <div>
+              <div class="card bg-gradient-to-br from-green-500 to-[#EFEBE3] w-96 shadow-xl rounded-none">
+                <div class="card-body">
+                  <h2 class="card-title text-white text-3xl">30% Off</h2>
+                  <p>Discover a world treats, toys, and <br> essentials handpicked for</p>
+                </div>
+                <div>
+                    <button class="btn ml-8 px-10 py-2">Bye Now</button>
+                </div>
+                <figure>
+                  <img class="ml-20"
+                    src="./images/vegetable-offer.png"
+                    alt="Shoes"/>
+                </figure>
+              </div>
+            </div>
+                
+                
+                 
+                 <!-- mini card -->
+                 <div class="grid grid-cols-2 p-5 lg:grid-cols-3 gap-5 lg:mx-0">
 
                   <div class="flex items-center gap-10 px-6 py-4 bg-white rounded-2xl w-72">
                    <div>
@@ -282,6 +288,7 @@
                     
                    </div>
                  </div>
+                 </div>
       </section> 
       
       
@@ -334,8 +341,8 @@
     </main>
 
     <!-- section -->
-     <section>
-      <div class="flex w-[1320px] h-[457px] ml-[140px] mt-20 p-8 bg-[#EFEBE3] rounded-3xl ">
+     <section class="relative -mb-[200px] lg:-mb-[200px] lg:mx-20 z-50 lg:z-50 p-5">
+      <div class="lg:flex lg:w-[1320px] lg:h-[457px] p-20 bg-[#EFEBE3] rounded-3xl  justify-center gap-20">
         <!-- image setion -->
          <div>
           <img src="./images/vegetable-busket.png" alt="">
@@ -354,8 +361,8 @@
      </section>
 
     <!-- Footer Section -->
-    <footer class="text-white bg-[#179800] py-10 px-4 md:px-16">
-        <div class=" flex justify-between w-9/12 mx-auto ">
+    <footer class="relative text-white bg-[#179800] pb-10 pt-[300px] mx-auto  px-4 md:px-16  ">
+        <div class=" lg:flex justify-between w-9/12 mx-auto space-y-10">
             <!-- text -->
             <div>
                 <img src="./images/logo-footer.png" alt="">
